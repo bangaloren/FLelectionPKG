@@ -4,13 +4,14 @@
 #' @export
 #'
 #' @examples clean_and_set_data()
-clean_and_set_data<-function(){
+clean_and_set_data<-function(user_dir){
+
   #data imports
   library("readxl")
   library(stats)
   library(ggplot2)
 
-  full_set_path<-"ElectionDataAnalysis/fullVRreport.xlsx"
+  full_set_path<-user_dir
   sheetnames<-excel_sheets(full_set_path)
   tab_sets<- list()
   for(sheetname in sheetnames){
