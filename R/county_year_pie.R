@@ -1,3 +1,12 @@
+#' County Year Summary
+#'
+#' @param county_name name of the county in all caps and quotes
+#' @param year year in format YYYY
+#'
+#' @return prints the pie chart for the year summary of the county.
+#' @export
+#'
+#' @examples county_year_pie("ALACHUA", 2019)
 county_year_pie<-function(county_name, year){
   county_data <- subset(get(paste0("set_", year)), County == county_name)
   dem_votes <- sum(county_data$"Florida Democratic Party")

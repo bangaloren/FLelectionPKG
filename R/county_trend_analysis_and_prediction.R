@@ -1,8 +1,8 @@
-#' Title
+#' County Trends and Predictions
 #'
 #' @param county_name enter the FL county name you want to test in all caps in quotes
 #'
-#' @return
+#' @return all trends for each year and the prediction for the upcoming year based on the county.
 #' @export
 #'
 #' @examples county_trend_analysis_and_prediction("ALACHUA")

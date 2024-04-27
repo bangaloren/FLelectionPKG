@@ -1,3 +1,11 @@
+#' Total Year Pie Chart
+#'
+#' @param year in format YYYY
+#'
+#' @return pie chart of division betweeen Democrats and Republicans throughout FL over a specific year.
+#' @export
+#'
+#' @examples total_year_summary_pie(2019)
 total_year_summary_pie <- function(year) {
   county_data <-get(paste0("set_", year))
 
