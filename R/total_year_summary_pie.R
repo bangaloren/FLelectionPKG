@@ -7,7 +7,7 @@
 #'
 #' @examples total_year_summary_pie(2019)
 total_year_summary_pie <- function(year) {
-  county_data <-get(paste0("set_", year))
+  year_data <-get(paste0("set_", year))
 
   dem_votes <- sum(year_data$"Florida Democratic Party")
   rep_votes <- sum(year_data$"Republican Party Of Florida")
