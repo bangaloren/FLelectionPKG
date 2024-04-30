@@ -5,5 +5,5 @@
 #'
 #' @examples setup()
 setup<-function(){
-  print("download fullVRreport.xlsx into your wokring directory and copy the filepath of fullVRreport.xlsx. insert the directory in quotes as the argument for clean_and_set_data function.")
+  print("download fullVRreport.xlsx into your working directory and copy the filepath of fullVRreport.xlsx. insert the directory in quotes as the argument for clean_and_set_data function.")
 }
