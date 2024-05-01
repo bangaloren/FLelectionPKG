@@ -1,6 +1,6 @@
 #' Clean and Set all Data
 #'
-#' @return nothing. just sets the data and the sata is broken up into years. set_2017 up to set_2023
+#' @return nothing. just sets the data and the sata is broken up into years. set_2017 up to set_2023. Each data set is also given a new column with county totals.
 #' @export
 #'
 #' @examples clean_and_set_data(User/R/fullVRreport.xlsx)
