@@ -5,7 +5,9 @@ Version: 0.1.0
 Author: Neha Bangalore, Nitya Kodali
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+    Creates pie charts as visual representations of data when user selects corresponding
+    function and data. Provides a prediction of voters when user selects corresponding 
+    function and year. 
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
